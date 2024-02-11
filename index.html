@@ -481,24 +481,23 @@
           </ul>
         </div>
         <div class="footer-form">
-          <div class="footer-subscribe-input">
-            <label for="subscribe-email" class="subscribe-label"
-              >Subscribe</label
-            >
-            <input
-              type="email"
-              name="subscribe-email"
-              id="subscribe-email"
-              placeholder="E-mail"
-              class="subscribe-input"
-            />
-          </div>
-          <button type="submit" class="subscribe-btn">
-            <p class="subscribe-btn-text">Subscribe</p>
-            <svg class="subscribe-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-subscribe-icon"></use>
-            </svg>
-          </button>
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-form-label">
+              <input
+                type="email"
+                name="subscribe-email"
+                placeholder="E-mail"
+                class="subscribe-input"
+              />
+            </label>
+            <button type="submit" class="subscribe-btn">
+              <span class="subscribe-btn-text">Subscribe</span>
+              <svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe-icon"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -553,7 +552,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="modal-field comment-field">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
@@ -566,19 +565,19 @@
             <input
               type="checkbox"
               class="default-checkbox visually-hidden"
-              name="accept"
-              id="accept"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
             />
-            <label for="accept" class="checkbox-label"
+            <label for="user-privacy" class="checkbox-label"
               ><span class="custom-checkbox">
-                <svg class="checkbox-icon" width="16" height="16">
+                <svg class="checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-click-icon"></use>
                 </svg>
               </span>
-              <p class="checkbox-text">
+              <span class="checkbox-text">
                 I accept the terms and conditions of the
-              </p>
+              </span>
               <a href="" class="checkbox-link">Privacy Policy</a>
             </label>
           </div>
