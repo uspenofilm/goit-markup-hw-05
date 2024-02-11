@@ -556,7 +556,6 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: #2e2f42;
 padding: 8px 16px;
 outline: transparent;
-cursor: pointer;
 }
 
 .subscribe-input::placeholder {
